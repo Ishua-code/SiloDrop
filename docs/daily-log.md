@@ -8,3 +8,5 @@ Date         | Finished      |  What broke   | What I learned  |
 
 26/11/2026   | Created the IAM-inline policy and the lambda function for presigned URL | I copied the slash (the escape character of json) nd  it failed | I learnt abt the inline policies, the handlers, the boto3--(aws python library), and experimented how the link works by removing the inline policies, by changing the role's resource and tried uploading after the expiry time
 
+26/11/2026   | Created the sqs service, the s3 event notifier and the processor handler, a new role for sqs | ntg broke | When uploaded to S3 the s3 event notifier successfully sent the notification to sqs, and the processor works and send it to the sqs and sqs to lambda
+
