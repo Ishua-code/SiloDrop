@@ -10,3 +10,4 @@ Date         | Finished      |  What broke   | What I learned  |
 
 26/11/2026   | Created the sqs service, the s3 event notifier and the processor handler, a new role for sqs | ntg broke | When uploaded to S3 the s3 event notifier successfully sent the notification to sqs, and the processor works and send it to the sqs and sqs to lambda
 
+26/11/20226   | Created a dynamoDB and the inline poilicy  for it and the processor lambda_handler(updated version) | When i detached inline policy i thought the upload itself will not happen , but i was wrong the upload happend because of the pre-signed url and ntg to do with inline ddb policy, we cloud watch that only in cloudWatch  | I learnt the dynamoDB, its features and the inline policy for this  |
