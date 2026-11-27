@@ -13,3 +13,5 @@ Date         | Finished      |  What broke   | What I learned  |
 26/11/20226   | Created a dynamoDB and the inline poilicy  for it and the processor lambda_handler(updated version) | When i detached inline policy i thought the upload itself will not happen , but i was wrong the upload happend because of the pre-signed url and ntg to do with inline ddb policy, we cloud watch that only in cloudWatch  | I learnt the dynamoDB, its features and the inline policy for this  
 
 27/11/2026    | Created the ECR, and dockerfile and the lambda using the container image | went through many breaks such as docker port i gave wrong....was not in the right dir (small mistakes) and the media type error ---becouse of the logs while building (Rebuilt with --provenance=false and pushed again) | I learnt abt the docker file, image, container, the ECR 
+
+27/11/2026  | Downloaded the ClamAV 1.4 and wrote the new app.py and the Dockerfile | The dnf minimalistic cmds alone broke(like search, which all these keywords did not exist)  | I learnt the temporary docker build command and visually noticed the ClamAV test results for normal file and EICAR file 
