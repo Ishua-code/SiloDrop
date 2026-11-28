@@ -1,0 +1,8 @@
+{
+  "Records": [
+    {
+      "messageId": "test-1",
+      "body": "{\"Records\":[{\"s3\":{\"bucket\":{\"name\":\"test-bucket\"},\"object\":{\"key\":\"tenant-a/test.txt\",\"size\":100}}}]}"
+    }
+  ]
+}
